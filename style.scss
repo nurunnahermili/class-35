@@ -1,0 +1,165 @@
+h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.pricing-section{
+    background: #f6f9fc;
+ 
+    
+    
+       .head-pricing{
+       
+        
+           h5{
+            color: rgb(16, 53, 218);
+
+           }
+           h2{
+            font-weight: bold;
+
+           }
+           .small-pricing{
+            width:50px;
+            height: 2px;
+            background: rgb(29, 16, 212);
+            margin-left: 530px;
+           }
+           p{
+           
+           }
+
+
+
+
+        }    
+    
+      .pricing-item{
+          background: #fff;
+          border-radius: 10px;
+          padding-right: 0px;
+         
+          
+        
+          .top-use{
+    
+              h4{
+                font-weight: bold;
+
+              }
+              h1{
+                  font-size: 40px;
+                  font-weight: bold;
+                  margin-bottom: -3px;
+
+              }
+              h6{
+                
+                
+              }
+            }
+          .bottom-use{
+            
+             display: inline-block;
+             margin-left: -40px;
+             position: relative;
+             &::before{
+                 content: "";
+                 width: 220px;
+                 height: 2px;
+                 background-color: #ddd;
+                 position: absolute;
+                 top: 0;
+                 left: 20px;
+                 border-radius: 3px;
+
+             }
+             
+              ul{
+                  list-style: none;
+                  li{
+                      font-size: 18px;
+
+                  }
+                }
+            }
+         a{
+             padding: 10px 20px;
+             background: rgb(21, 111, 230);
+             border-radius: 50px;
+             color: #fff;
+             font-size: 20px;
+             text-decoration: none;
+             margin-top: 20px;
+             display: inline-block;
+
+         }
+        }
+       
+    
+    
+    
+    
+           
+
+        
+    
+  
+}  
+
+
+// banner
+    
+  .banner-section{
+      .image-div{
+        background-image: url(img/free-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+        width: 100%;
+        height: 80vh;
+        position: relative; 
+             
+
+          
+      
+          .blank{
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              background: rgba(30, 87, 209, 0.9);
+               padding-top: 180px;
+             
+               h5{
+
+               }
+               h2{
+                   font-size: 45px;
+                   font-weight: bold;
+
+               }
+               .mini-div{
+                   width: 80px;
+                   height: 2px;
+                   background: #fff;
+                   margin-left: 585px;
+
+
+               }
+               p{
+
+               }
+               a{
+                   padding: 10px 20px;
+                   display: inline-block;
+                   background: #fff;
+                   border-radius: 50px;
+                   text-decoration: none;
+                   font-size: 17px;
+
+               }
+          
+          
+          
+            }
+        }
+    }

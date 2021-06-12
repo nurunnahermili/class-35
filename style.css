@@ -1,0 +1,115 @@
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+.pricing-section {
+  background: #f6f9fc;
+}
+
+.pricing-section .head-pricing h5 {
+  color: #1035da;
+}
+
+.pricing-section .head-pricing h2 {
+  font-weight: bold;
+}
+
+.pricing-section .head-pricing .small-pricing {
+  width: 50px;
+  height: 2px;
+  background: #1d10d4;
+  margin-left: 530px;
+}
+
+.pricing-section .pricing-item {
+  background: #fff;
+  border-radius: 10px;
+  padding-right: 0px;
+}
+
+.pricing-section .pricing-item .top-use h4 {
+  font-weight: bold;
+}
+
+.pricing-section .pricing-item .top-use h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: -3px;
+}
+
+.pricing-section .pricing-item .bottom-use {
+  display: inline-block;
+  margin-left: -40px;
+  position: relative;
+}
+
+.pricing-section .pricing-item .bottom-use::before {
+  content: "";
+  width: 220px;
+  height: 2px;
+  background-color: #ddd;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  border-radius: 3px;
+}
+
+.pricing-section .pricing-item .bottom-use ul {
+  list-style: none;
+}
+
+.pricing-section .pricing-item .bottom-use ul li {
+  font-size: 18px;
+}
+
+.pricing-section .pricing-item a {
+  padding: 10px 20px;
+  background: #156fe6;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.banner-section .image-div {
+  background-image: url(img/free-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+
+.banner-section .image-div .blank {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 87, 209, 0.9);
+  padding-top: 180px;
+}
+
+.banner-section .image-div .blank h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.banner-section .image-div .blank .mini-div {
+  width: 80px;
+  height: 2px;
+  background: #fff;
+  margin-left: 585px;
+}
+
+.banner-section .image-div .blank a {
+  padding: 10px 20px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/*# sourceMappingURL=style.css.map */
